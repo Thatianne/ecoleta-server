@@ -1,0 +1,30 @@
+@host = http://localhost
+@port = 3333
+@contentType = application/json
+
+GET {{host}}:{{port}}/items?search=nn
+
+###
+
+POST {{host}}:{{port}}/points
+Content-Type: {{contentType}}
+
+{
+    "name": "Mercado Seu Zé",
+    "email": "contato@imp.com.br",
+    "whatsapp": "12345678",
+    "latitude": -32.1234343,
+    "longitude": -12.1234343,
+    "city": "Feira de Santana",
+    "uf": "BA",
+    "items": [6]
+}
+
+
+###
+
+GET {{host}}:{{port}}/points/3
+
+###
+
+GET {{host}}:{{port}}/points?city=Feira de Santana&uf=BA&items=6
