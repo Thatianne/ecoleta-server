@@ -103,17 +103,16 @@ npm run dev
  Retorna um ponto de coleta.
  
  ```javascript
-   [
-    {
-     "id": 4,
-     "image": {url},
-     "name": "Mercado Seu Zé",
-     "email": "contato@imp.com.br",
-     "whatsapp": "12345678",
-     "city": "Feira de Santana",
-     "uf": "BA",
-     "latitude": -32.1234343,
-     "longitude": -12.1234343
-    },
+   {
+    "id": 4,
+    "image": {url},
+    "name": "Mercado Seu Zé",
+    "email": "contato@imp.com.br",
+    "whatsapp": "12345678",
+    "city": "Feira de Santana",
+    "uf": "BA",
+    "latitude": -32.1234343,
+    "longitude": -12.1234343
+   }
  ```
  
