@@ -39,13 +39,13 @@ npm run dev
    [
     {
      id: {id},
-				 title: {title},
-				 image_url: {url}
+     title: {title},
+     image_url: {url}
     },
     {
      id: {id},
-				 title: {title},
-				 image_url: {url}
+     title: {title},
+     image_url: {url}
     }
    ]
 ```
@@ -96,6 +96,7 @@ npm run dev
   "uf": {uf},
   "items": [{idItem1}, {idItem2}]
  }
+ ```
  
  - [GET] `/points/{id}`:
  
